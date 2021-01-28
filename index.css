@@ -26,6 +26,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+    color: #0083b0;
+}
+
 li {
   list-style-type: none;
 }
