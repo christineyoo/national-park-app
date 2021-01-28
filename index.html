@@ -14,12 +14,12 @@
 
         <form id="js-form">
             <label for="js-search-term">Enter a US state abbreviation</label>
-            <input type="text" name="search-term" id="js-search-term" required>
+            <input type="text" name="search-term" id="js-search-term" class="field" required><br>
 
             <label for="js-max-results">Maximum results to return</label>
-            <input type="number" name="max-results" id="js-max-results" value="10">
+            <input type="number" name="max-results" id="js-max-results" class="field" value="10">
 
-            <input type="submit" value="Find">
+            <input type="submit" id="button" value="Find">
         </form>
 
         <p id="js-error-message" class="error-message"></p>

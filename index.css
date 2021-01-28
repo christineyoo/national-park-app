@@ -1,9 +1,53 @@
-* {
-    box-sizing: border-box;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
-  .error-message {
-    color: red;
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  margin: 100px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+#button {
+  margin: 20px;
+  padding: 10px;
+  background-color: Transparent;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.field {
+  margin: 20px;
+  padding: 10px;
+  background-color: Transparent;
+  border: 1px solid #000;
+  color: #000;
+}
+
+.error-message {
+  color:  #DC2424;
 }
 
 .hidden {
